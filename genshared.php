@@ -11,10 +11,12 @@
 	*/
 	function genshared($list = 'all', $view = '') {
 
+		$buttons = gensharedlinks($list);
+
 		if ($view == '')
 			$view = 'views/horbuttons.phtml';
 
-		$buttons = gensharedlinks($list);
+				
 		include $view;
 
 	}
@@ -22,7 +24,7 @@
 
 
 	/*
-	* model return social urls and javascript
+	*  return social links
 	*/
 
 	function gensharedlinks($list = 'all', $currlink = '') {
