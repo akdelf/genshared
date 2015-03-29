@@ -1,0 +1,19 @@
+{
+    "name": "akdelf/genshared",
+    "description": "share like social buttons",
+    "keywords": ["social","php","buttons"],
+    "homepage": "http://github.com/akdelf/genshared",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AK Delf",
+            "homepage": "http://github.com/akdelf/genshared"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.0"
+    },
+    "autoload": {
+        "files": ["genshared.php"]
+    }
+}

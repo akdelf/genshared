@@ -1,0 +1,10 @@
+<div id="sg_buttons">
+	<ul>
+		<?php foreach ($buttons as $name=>$button):?>
+			<li class="sg-<?php echo $name ?>-button"><a target="_blank" href="<?php echo $button['link']?>" onclick="javascript:window.open(this.href,
+  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-twitter">$button['link']</i><?php echo $name?></a></li>
+		<?endforeach?>
+	</ul>
+</div>		
+
+		
